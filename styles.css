@@ -79,25 +79,25 @@ body{
   margin-right: 10px; 
 }
 
-.header ul li:first-child {
+.header table:first-child {
   margin-right: auto; 
 }  
 
-.header ul{
+.header td{
   display: flex;
   align-items: center; 
 }
-.header ul li{
+.header td{
   margin: 0 15px;
 }
-.header ul li a{
+.header td{
   text-transform: capitalize;
   display: block;
 }
-.header ul li a.active{
+.header td a.active{
   color: #FF0000;
 } 
-.header ul li a:hover{
+.header td a:hover{
   color:#FF0000;
 }
 .header .menu_icon{
