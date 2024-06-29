@@ -80,6 +80,7 @@ body{
 }
 
 .navbar {
+  font-family: 'Lexend', sans-serif;
   overflow: hidden;
   background-color: #202020;
 }
@@ -89,6 +90,8 @@ body{
   font-size: 18px;
   color: #fff;
   text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 .dropdown {
@@ -97,12 +100,13 @@ body{
 }
 
 .dropdown .dropbtn {
-  float: left;
   font-size: 16px;
   border: none;
   outline: none;
   color: #fff;
+  padding: 14px 16px;
   background-color: #202020;
+  font-family: inherit;
   margin: 0;
 }
 
@@ -114,16 +118,26 @@ body{
   display: none;
   position: absolute;
   background-color: #202020;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
 }
 
 .dropdown .dropdown-content a {
   float: none;
   color: #fff;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
   background-color: #202020;
 }
 
 .dropdown-content a:hover {
   color: #FF0000;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 /*---------------------------HomePage--------------------------*/
