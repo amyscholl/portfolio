@@ -225,28 +225,12 @@ profile-photo .img{
 }
 .about-content ul {
   color:#fff;
-  text-align: justify;
+  text-align: left;
 }
 
 .about-content ul li {
-  list-style-type: disc;
+  list-style-type: circle;
   margin-bottom: 10px;
-}
-
-.about-skills{
-  flex-basis: 35%;
-}
-.about-skills ul li{
-  border-bottom: 1px dashed #ddd;
-  padding-bottom: 10px;
-  margin-bottom: 10px;
-  color: #fff;
-  font-size: 18px;
-}
-.about-skills ul li:last-child{
-  border-bottom: 0;
-  padding-bottom: 0;
-  margin-bottom: 0;
 }
 
 
