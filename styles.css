@@ -85,7 +85,7 @@ body{
 }
 
 .navbar a {
-  float: right;
+  float: left;
   font-size: 18px;
   color: #fff;
   text-align: center;
@@ -97,7 +97,7 @@ body{
 }
 
 .dropdown .dropbtn {
-  float: right;
+  float: left;
   font-size: 16px;
   border: none;
   outline: none;
