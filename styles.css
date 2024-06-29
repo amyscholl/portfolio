@@ -131,6 +131,7 @@ body{
   text-decoration: none;
   display: block;
   background-color: #202020;
+  transition: 0s;
 }
 
 .dropdown-content a:hover {
