@@ -84,7 +84,7 @@ body{
   background-color: #202020;
 }
 
-.navbar a{
+.navbar a {
   float: right;
   font-size: 18px;
   color: #fff;
@@ -92,7 +92,7 @@ body{
 }
 
 .dropdown {
-  float: right;
+  float: left;
   overflow: hidden;
 }
 
@@ -110,13 +110,13 @@ body{
   color: #FF0000;
 }
 
-.dropdown-content {
+.dropdown .dropdown-content {
   display: none;
   position: absolute;
   background-color: #202020;
 }
 
-.dropdown-content a {
+.dropdown .dropdown-content a {
   float: none;
   color: #fff;
   background-color: #202020;
