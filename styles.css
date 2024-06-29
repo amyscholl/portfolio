@@ -130,14 +130,17 @@ body{
   text-decoration: none;
   display: block;
   text-align: left;
+  transition: 0s;
 }
 
 .dropdown-content a:hover {
   color: #FF0000;
+  transition: 0s;
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
+  transition: 0s;
 }
 
 /*---------------------------HomePage--------------------------*/
