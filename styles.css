@@ -231,7 +231,10 @@ profile-photo .img{
 .about-content ul li {
   list-style-type: circle;
   margin-bottom: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
+
 
 
 /*---------------------------Button---------------------------*/
