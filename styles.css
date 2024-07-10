@@ -116,7 +116,6 @@ body{
 
 .dropdown-content{
   display: block;
-  visibility: collapse;
   position: absolute;
   color: #fff;
   min-width: 160px;
@@ -125,13 +124,10 @@ body{
 }
 
 .dropdown .dropdown-content a {
-  float: none;
   color: #fff;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
-  text-align: left;
-  transition: 0s;
 }
 
 .dropdown-content a:hover {
