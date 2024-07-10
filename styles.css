@@ -95,8 +95,8 @@ body{
 }
 
 .dropdown {
-  float: relative;
-  overflow: inline-block;
+  float: left;
+  overflow: hidden;
 }
 
 .dropdown .dropbtn {
