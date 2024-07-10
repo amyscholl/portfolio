@@ -114,8 +114,8 @@ body{
   color: #FF0000;
 }
 
-.dropdown-content a {
-  display: none;
+.dropdown-content{
+  display: block;
   position: absolute;
   color: #fff;
   min-width: 160px;
