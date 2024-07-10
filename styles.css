@@ -114,7 +114,7 @@ body{
   color: #FF0000;
 }
 
-.dropdown-content {
+.dropdown-content a {
   display: none;
   position: absolute;
   color: #fff;
