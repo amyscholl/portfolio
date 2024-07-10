@@ -116,6 +116,7 @@ body{
 
 .dropdown-content{
   display: block;
+  visibility: visible;
   position: absolute;
   color: #fff;
   min-width: 160px;
