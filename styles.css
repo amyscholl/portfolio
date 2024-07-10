@@ -222,6 +222,7 @@ profile-photo .img{
   font-size: 40px;
   line-height: 70px;
   text-transform: capitalize;
+  margin-left: 20px;
 }
 .about-content ul {
   color:#fff;
@@ -234,8 +235,6 @@ profile-photo .img{
   margin-left: 40px;
   margin-right: 40px;
 }
-
-
 
 /*---------------------------Button---------------------------*/
 
